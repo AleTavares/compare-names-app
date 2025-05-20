@@ -28,7 +28,7 @@ Para executar esta aplicação, você precisa ter o Python instalado em sua máq
 
 1. Clone o repositório:
    ```
-   git clone <repository-url>
+   git clone https://github.com/AleTavares/compare-names-app.git
    cd compare-names-app
    ```
 
@@ -50,7 +50,7 @@ Para executar esta aplicação, você precisa ter o Python instalado em sua máq
    streamlit run src/app.py
    ```
 
-2. Abra seu navegador e vá para `http://localhost:8501`.
+2. Abra seu navegador e vá para `http://localhost:8000 --server.port=8000`.
 
 3. Faça o upload do seu arquivo PDF e do arquivo CSV usando a interface fornecida.
 
